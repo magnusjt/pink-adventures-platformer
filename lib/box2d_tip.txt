@@ -1,0 +1,16 @@
+Following commented out:
+
+/*Object.defineProperty = function(obj, p, cfg) {
+         if(cfg.get instanceof Function)
+            obj.__defineGetter__(p, cfg.get);
+         if(cfg.set instanceof Function)
+            obj.__defineSetter__(p, cfg.set);
+      }*/
+
+
+Breaks logging in socketio when run under nodejs
+
+
+Also add this to the bottom of the box2d.js file:
+
+exports.Box2D = Box2D;

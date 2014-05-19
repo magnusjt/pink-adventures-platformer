@@ -1,0 +1,11 @@
+tscommand*
+.idea/
+.tscache/
+old/
+src/server/server.js
+src/server/server.js.map
+src/client/client.js
+src/**/*.js.map
+lib/pixi.js-master/
+node_modules/
+plan.txt
