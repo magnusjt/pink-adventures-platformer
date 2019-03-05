@@ -9,7 +9,7 @@ module SuperGame {
 
         export function init() {
             // Start http server for static files
-            var s = connect().use(connect.static('../../')).listen(80);
+            var s = connect().use(connect.static('../../')).listen(3000);
 
             // Start socket io server, listening on the http server
             io = socketio.listen(s);
